@@ -1,0 +1,19 @@
+{
+  "name": "telkomsat/ahp-web",
+  "description": "Sistem Pendukung Keputusan AHP Pegawai Terbaik - PT Telkom Satelit Indonesia Regional 6",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "google/cloud-firestore": "^1.38",
+    "dompdf/dompdf": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "App\\Controllers\\": "controllers/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+/vendor/
+/composer
+/composer-setup.php
+
+# Environment variables
+.env
+
+# Firebase Service Account Keys
+*.json
+!composer.json
+!package.json
+!vercel.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
